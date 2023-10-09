@@ -1,86 +1,92 @@
 <style>
-    :host {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-      font-size: 14px;
-      color: #333;
-      box-sizing: border-box;
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
-    }
-  
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-      margin: 8px 0;
-    }
-  
-    p {
-      margin: 0;
-    }
-  
-    .spacer {
-      flex: 1;
-    }
-  
-    .toolbar {
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      height: 60px;
-      display: flex;
-      align-items: center;
-      background-color: #1a3e62;
-      color: white;
-      font-weight: 600;
-    }
-  
-    .toolbar span {
-      padding-left: 5%;
-    }
-  
-    .content {
-      display: flex;
-      margin: 82px auto 32px;
-      padding: 0 16px;
-      max-width: 960px;
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    footer {
-      margin-top: 8px;
-      display: flex;
-      align-items: center;
-      line-height: 20px;
-    }
-  
-    footer a {
-      display: flex;
-      align-items: center;
-    }
-  </style>
-  
-  <!-- Toolbar -->
-  <div class="toolbar" role="banner">
-    <span>D280 SVG Worldmap: JS, TS, and Angular</span>
-  </div>
-  
-  <div class="content" role="main">
-    <img src="./map.svg" alt="An SVG map showing the countries of the world">
-    <table>
-    <colgroup>
-      <col>
+  :host {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 14px;
+    color: #333;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
 
-      <col>
-    </colgroup>
-  </table>
-    <!-- Footer -->
-    <footer>
-      SVG Sourced from&nbsp;
-      <a href="https://innovsandbox.space/img/world-map.svg" target="_blank" rel="noopener"> Innovsandbox
-      </a>
-    </footer>
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 8px 0;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  .spacer {
+    flex: 1;
+  }
+
+  .toolbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #1a3e62;
+    color: white;
+    font-weight: 600;
+  }
+
+  .toolbar span {
+    padding-left: 5%;
+  }
+
+  .content {
+    display: flex;
+    margin: 82px auto 32px;
+    padding: 0 16px;
+    max-width: 100%;
+    flex-direction: row;
+    align-items: left;
+  }
+
+  .content img {
+    display: flex;
+    width: 60%;
+    align-items: left;
+    flex-direction: column;
+  }
+  .info{
+    width:auto;
+  }
+  footer {
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    line-height: 20px;
+  }
+
+  footer a {
+    display: flex;
+    align-items: center;
+  }
+</style>
+
+<!-- Toolbar -->
+<div class="toolbar" role="banner">
+  <span>D280 SVG Worldmap: JS, TS, and Angular</span>
+</div>
+
+<div class="content" role="main">
+  <img src="assets/map.svg" alt="An SVG map showing the countries of the world">
+  <div class="info">
+    <h2>Info</h2>
+    <p>put info in here</p>
+  </div>
+</div>
+<footer>
+  SVG Sourced from&nbsp;
+  <a href="https://innovsandbox.space/img/world-map.svg" target="_blank" rel="noopener"> Innovsandbox
+  </a>
+</footer>

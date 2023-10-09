@@ -1,11 +1,11 @@
 Baby's first Angular Project 
 For D280 PA
-A. Ident SVG map of the world
+A. Ident SVG map of the world.   Check
         mine is from https://innovsandbox.space/img/world-map.svg
 B. Display six info from GeoNames or Worldbank API
     country name, capitol, region, income level, two properties of your choice
-C. Assign the map comp to the default URL using routing
-D. Create An Html layout with TWO columns, one for the map, one for the information from the API
+C. Assign the map comp to the default URL using routing.   Check
+D. Create An Html layout with TWO columns, one for the map, one for the information from the API.   Check
 E. Convert the SVG to interactive angular comp by connecting all the path tagsto mouse event handlers so each path is rec and transmitted to the parent comp hosting the map if a mouse event occurs
 F. Generate an API service that uses the built in HTTP to make calls
     one method that acceps a country name input, returns additional info
