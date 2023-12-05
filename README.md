@@ -1,4 +1,4 @@
-Baby's first Angular Project 
+First Angular Project 
 For D280 PA
 A. Ident SVG map of the world.   Check
         mine is from https://innovsandbox.space/img/world-map.svg
